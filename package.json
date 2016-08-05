@@ -1,0 +1,30 @@
+{
+  "name": "service-http-inspect",
+  "version": "0.0.1",
+  "description": "HTTP inspection as a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/service-http-inspect.git"
+  },
+  "keywords": [
+    "http",
+    "inspect",
+    "logging",
+    "disposable"
+  ],
+  "author": "kr1sp1n <krispin@posteo.de> (http://kr1sp1n.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/service-http-inspect/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/service-http-inspect#readme",
+  "dependencies": {
+    "bluebird": "3.4.1",
+    "bole": "3.0.1"
+  }
+}
